@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - Efeler Baklava</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Efeler Baklava</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О нас</a></li>
+            <li><a href="menu.html">Меню</a></li>
+            <li><a href="contact.html" class="active">Контакты</a></li>
+        </ul>
+        <div class="burger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="page-header contact-header">
+        <h1>Контакты</h1>
+        <p>Свяжитесь с нами</p>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <div class="card-icon">📍</div>
+                        <h3>Адрес</h3>
+                        <p>Санкт-Петербург<br>наб. Крюкова канала, 17</p>
+                        <p class="highlight">Напротив Никольского собора</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="card-icon">📞</div>
+                        <h3>Телефон</h3>
+                        <p><a href="tel:+79522216458">+7 (952) 221-64-58</a></p>
+                        <p class="small">Звоните для заказа и вопросов</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="card-icon">🕐</div>
+                        <h3>Режим работы</h3>
+                        <p>Понедельник - Воскресенье</p>
+                        <p class="highlight">10:00 - 23:00</p>
+                        <p class="small">Работаем без выходных</p>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="card-icon">🚇</div>
+                        <h3>Как добраться</h3>
+                        <p>Метро: Садовая</p>
+                        <p class="small">5 минут пешком от станции</p>
+                    </div>
+                </div>
+
+                <div class="map-container">
+                    <div class="map-placeholder">
+                        <h3>🗺️ Мы на карте</h3>
+                        <p>Санкт-Петербург, наб. Крюкова канала, 17</p>
+                        <a href="https://yandex.ru/maps/-/CXvSzLo3" target="_blank" class="map-link">Открыть в Яндекс.Картах →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="container">
+            <h2>Напишите нам</h2>
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Телефон</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Сообщение</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Отправить сообщение</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="social-section">
+        <div class="container">
+            <h2>Мы в социальных сетях</h2>
+            <div class="social-grid">
+                <a href="https://www.instagram.com/efeler_baklava/" target="_blank" class="social-card instagram">
+                    <div class="social-icon">📷</div>
+                    <h3>Instagram</h3>
+                    <p>@efeler_baklava</p>
+                </a>
+                <div class="social-card vk">
+                    <div class="social-icon">💬</div>
+                    <h3>VKontakte</h3>
+                    <p>Efeler Baklava</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="quick-info">
+        <div class="container">
+            <div class="info-banner">
+                <h3>💡 Полезная информация</h3>
+                <div class="info-items">
+                    <div class="info-item">
+                        <strong>Средний счет:</strong> от 350 ₽
+                    </div>
+                    <div class="info-item">
+                        <strong>Рейтинг:</strong> ⭐⭐⭐⭐⭐ 5.0
+                    </div>
+                    <div class="info-item">
+                        <strong>Отзывов:</strong> более 400
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-section">
+                <h4>Efeler Baklava</h4>
+                <p>Турецкая пахлава и продукты</p>
+            </div>
+            <div class="footer-section">
+                <h4>Адрес</h4>
+                <p>Санкт-Петербург<br>наб. Крюкова канала, 17</p>
+            </div>
+            <div class="footer-section">
+                <h4>Контакты</h4>
+                <p>+7 (952) 221-64-58</p>
+                <p>Пн-Вс: 10:00 - 23:00</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Efeler Baklava. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
